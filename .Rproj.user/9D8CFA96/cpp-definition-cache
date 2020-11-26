@@ -1,0 +1,119 @@
+[
+    {
+        "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/count_inversions.cpp",
+        "file_last_write": 1606392612.0,
+        "definitions": [
+            {
+                "usr": "c:@F@insertion_sort#*d#k#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "insertion_sort(double *, unsigned long long)",
+                "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/count_inversions.cpp",
+                "line": 6,
+                "column": 20
+            },
+            {
+                "usr": "c:@F@merge#*d#S0_#k#k#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "merge(double *, double *, unsigned long long, unsigned long long)",
+                "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/count_inversions.cpp",
+                "line": 30,
+                "column": 20
+            },
+            {
+                "usr": "c:@F@merge_sort#*d#S0_#k#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "merge_sort(double *, double *, unsigned long long)",
+                "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/count_inversions.cpp",
+                "line": 75,
+                "column": 20
+            },
+            {
+                "usr": "c:@F@count_inversions#&$@N@std@N@__1@S@vector>#d#$@N@std@N@__1@S@allocator>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "count_inversions(std::vector<double> &)",
+                "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/count_inversions.cpp",
+                "line": 94,
+                "column": 20
+            }
+        ]
+    },
+    {
+        "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/count_inversions.h",
+        "file_last_write": 1606380291.0,
+        "definitions": []
+    },
+    {
+        "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/tau.cpp",
+        "file_last_write": 1606394840.0,
+        "definitions": [
+            {
+                "usr": "c:@F@tau_a#$@N@std@N@__1@S@vector>#d#$@N@std@N@__1@S@allocator>#d#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "tau_a(std::vector<double>, std::vector<double>)",
+                "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/tau.cpp",
+                "line": 12,
+                "column": 8
+            },
+            {
+                "usr": "c:@F@tau_b#$@N@std@N@__1@S@vector>#d#$@N@std@N@__1@S@allocator>#d#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "tau_b(std::vector<double>, std::vector<double>)",
+                "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/tau.cpp",
+                "line": 31,
+                "column": 8
+            },
+            {
+                "usr": "c:@F@tau_c#$@N@std@N@__1@S@vector>#d#$@N@std@N@__1@S@allocator>#d#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "tau_c(std::vector<double>, std::vector<double>)",
+                "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/tau.cpp",
+                "line": 51,
+                "column": 8
+            },
+            {
+                "usr": "c:@F@tau_d#$@N@std@N@__1@S@vector>#d#$@N@std@N@__1@S@allocator>#d#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "tau_d(std::vector<double>, std::vector<double>)",
+                "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/tau.cpp",
+                "line": 74,
+                "column": 8
+            },
+            {
+                "usr": "c:@F@somers_d#$@N@std@N@__1@S@vector>#d#$@N@std@N@__1@S@allocator>#d#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "somers_d(std::vector<double>, std::vector<double>)",
+                "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/tau.cpp",
+                "line": 92,
+                "column": 8
+            },
+            {
+                "usr": "c:@F@gk_gamma#$@N@std@N@__1@S@vector>#d#$@N@std@N@__1@S@allocator>#d#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "gk_gamma(std::vector<double>, std::vector<double>)",
+                "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/tau.cpp",
+                "line": 111,
+                "column": 8
+            }
+        ]
+    },
+    {
+        "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/tau_helpers.cpp",
+        "file_last_write": 1606393720.0,
+        "definitions": []
+    },
+    {
+        "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/tau_helpers.h",
+        "file_last_write": 1606393690.0,
+        "definitions": []
+    }
+]

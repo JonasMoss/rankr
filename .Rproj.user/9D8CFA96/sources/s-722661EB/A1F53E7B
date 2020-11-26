@@ -1,0 +1,25 @@
+{
+    "id": "A1F53E7B",
+    "path": "~/GitHub/rankr/R/tau.R",
+    "project_path": "R/tau.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1606378687867.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "tempName": "Untitled1",
+        "cursorPosition": "9,49",
+        "scrollLine": "0"
+    },
+    "folds": "15|92|53|0|\n",
+    "lastKnownWriteTime": 1606399068,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1606399126938,
+    "read_only": false,
+    "read_only_alternatives": []
+}
