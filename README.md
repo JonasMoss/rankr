@@ -2,7 +2,7 @@
 An R package for calculating variants of Kendall's tau.
 
 ## Installation
-From inside `R`, use one of the following commands:
+From inside `R`, use the following command:
 ``` r
 devtools::install_github("JonasMoss/rankr")
 ```
