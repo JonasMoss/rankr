@@ -1,7 +1,7 @@
 [
     {
         "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/count_inversions.cpp",
-        "file_last_write": 1606392612.0,
+        "file_last_write": 1606655807.0,
         "definitions": [
             {
                 "usr": "c:@F@insertion_sort#*d#k#",
@@ -9,7 +9,7 @@
                 "parent_name": "",
                 "name": "insertion_sort(double *, unsigned long long)",
                 "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/count_inversions.cpp",
-                "line": 6,
+                "line": 13,
                 "column": 20
             },
             {
@@ -18,7 +18,7 @@
                 "parent_name": "",
                 "name": "merge(double *, double *, unsigned long long, unsigned long long)",
                 "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/count_inversions.cpp",
-                "line": 30,
+                "line": 37,
                 "column": 20
             },
             {
@@ -27,7 +27,7 @@
                 "parent_name": "",
                 "name": "merge_sort(double *, double *, unsigned long long)",
                 "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/count_inversions.cpp",
-                "line": 75,
+                "line": 82,
                 "column": 20
             },
             {
@@ -36,7 +36,7 @@
                 "parent_name": "",
                 "name": "count_inversions(std::vector<double> &)",
                 "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/count_inversions.cpp",
-                "line": 94,
+                "line": 101,
                 "column": 20
             }
         ]
@@ -48,7 +48,7 @@
     },
     {
         "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/tau.cpp",
-        "file_last_write": 1606394840.0,
+        "file_last_write": 1608919721.0,
         "definitions": [
             {
                 "usr": "c:@F@tau_a#$@N@std@N@__1@S@vector>#d#$@N@std@N@__1@S@allocator>#d#S0_#",
@@ -103,12 +103,39 @@
                 "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/tau.cpp",
                 "line": 111,
                 "column": 8
+            },
+            {
+                "usr": "c:@F@sum_prod_xy#&$@N@std@N@__1@S@vector>#d#$@N@std@N@__1@S@allocator>#d#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "sum_prod_xy(std::vector<double> &, std::vector<double> &)",
+                "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/tau.cpp",
+                "line": 128,
+                "column": 8
+            },
+            {
+                "usr": "c:@F@sum_prod_x#&$@N@std@N@__1@S@vector>#d#$@N@std@N@__1@S@allocator>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "sum_prod_x(std::vector<double> &)",
+                "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/tau.cpp",
+                "line": 134,
+                "column": 8
+            },
+            {
+                "usr": "c:@F@inversions#&$@N@std@N@__1@S@vector>#d#$@N@std@N@__1@S@allocator>#d#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "inversions(std::vector<double> &, std::vector<double> &)",
+                "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/tau.cpp",
+                "line": 140,
+                "column": 20
             }
         ]
     },
     {
         "file": "C:/Users/jonas/OneDrive/Documents/GitHub/rankr/src/tau_helpers.cpp",
-        "file_last_write": 1606393720.0,
+        "file_last_write": 1608744305.0,
         "definitions": []
     },
     {

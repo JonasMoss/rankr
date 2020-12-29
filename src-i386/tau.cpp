@@ -123,3 +123,9 @@ double gk_gamma(std::vector<double> x, std::vector<double> y) {
   return top / bottom;
 
 }
+
+// [[Rcpp::export]]
+double sum_prod2(std::vector<double> &x, std::vector<double> &y) {
+  lexicographic_sort(x, y);
+  return sum_product_xy(x, y);
+}

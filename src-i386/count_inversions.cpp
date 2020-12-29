@@ -1,6 +1,13 @@
 #include <Rcpp.h>
 #include "count_inversions.h"
 
+// Make count_inversions templated, just as
+// https://www.cplusplus.com/reference/algorithm/sort/
+// modify the other functions too; use ranges / iterators.
+// Approx. time: 8 hours.
+// template <class RandomAccessIterator, class Compare>
+// unsigned long long inversions(RandomAccessIterator first, RandomAccessIterator last, Compare comp);
+
 const int insertion_threshold = 15;
 
 unsigned long long insertion_sort(double* x, unsigned long long length) {

@@ -88,38 +88,15 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
-// sum_prod_xy
-double sum_prod_xy(std::vector<double>& x, std::vector<double>& y);
-RcppExport SEXP _rankr_sum_prod_xy(SEXP xSEXP, SEXP ySEXP) {
+// sum_prod2
+double sum_prod2(std::vector<double>& x, std::vector<double>& y);
+RcppExport SEXP _rankr_sum_prod2(SEXP xSEXP, SEXP ySEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
     Rcpp::traits::input_parameter< std::vector<double>& >::type x(xSEXP);
     Rcpp::traits::input_parameter< std::vector<double>& >::type y(ySEXP);
-    rcpp_result_gen = Rcpp::wrap(sum_prod_xy(x, y));
-    return rcpp_result_gen;
-END_RCPP
-}
-// sum_prod_x
-double sum_prod_x(std::vector<double>& x);
-RcppExport SEXP _rankr_sum_prod_x(SEXP xSEXP) {
-BEGIN_RCPP
-    Rcpp::RObject rcpp_result_gen;
-    Rcpp::RNGScope rcpp_rngScope_gen;
-    Rcpp::traits::input_parameter< std::vector<double>& >::type x(xSEXP);
-    rcpp_result_gen = Rcpp::wrap(sum_prod_x(x));
-    return rcpp_result_gen;
-END_RCPP
-}
-// inversions
-unsigned long long inversions(std::vector<double>& x, std::vector<double>& y);
-RcppExport SEXP _rankr_inversions(SEXP xSEXP, SEXP ySEXP) {
-BEGIN_RCPP
-    Rcpp::RObject rcpp_result_gen;
-    Rcpp::RNGScope rcpp_rngScope_gen;
-    Rcpp::traits::input_parameter< std::vector<double>& >::type x(xSEXP);
-    Rcpp::traits::input_parameter< std::vector<double>& >::type y(ySEXP);
-    rcpp_result_gen = Rcpp::wrap(inversions(x, y));
+    rcpp_result_gen = Rcpp::wrap(sum_prod2(x, y));
     return rcpp_result_gen;
 END_RCPP
 }
@@ -132,9 +109,7 @@ static const R_CallMethodDef CallEntries[] = {
     {"_rankr_tau_d", (DL_FUNC) &_rankr_tau_d, 2},
     {"_rankr_somers_d", (DL_FUNC) &_rankr_somers_d, 2},
     {"_rankr_gk_gamma", (DL_FUNC) &_rankr_gk_gamma, 2},
-    {"_rankr_sum_prod_xy", (DL_FUNC) &_rankr_sum_prod_xy, 2},
-    {"_rankr_sum_prod_x", (DL_FUNC) &_rankr_sum_prod_x, 1},
-    {"_rankr_inversions", (DL_FUNC) &_rankr_inversions, 2},
+    {"_rankr_sum_prod2", (DL_FUNC) &_rankr_sum_prod2, 2},
     {NULL, NULL, 0}
 };
 

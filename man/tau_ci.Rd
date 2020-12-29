@@ -8,7 +8,7 @@ tau_ci(
   x,
   y,
   n_boot = 1000,
-  alternative = "two_sided",
+  alternative = c("two_sided", "greater", "less"),
   alpha = 0.05,
   method = "BCa",
   variant = c("tau_d", "tau_a", "tau_b", "tau_c", "somers_d", "gk_gamma")

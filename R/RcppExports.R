@@ -45,3 +45,15 @@ gk_gamma <- function(x, y) {
     .Call(`_rankr_gk_gamma`, x, y)
 }
 
+sum_prod_xy <- function(x, y) {
+    .Call(`_rankr_sum_prod_xy`, x, y)
+}
+
+sum_prod_x <- function(x) {
+    .Call(`_rankr_sum_prod_x`, x)
+}
+
+inversions <- function(x, y) {
+    .Call(`_rankr_inversions`, x, y)
+}
+

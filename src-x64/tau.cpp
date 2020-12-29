@@ -125,20 +125,7 @@ double gk_gamma(std::vector<double> x, std::vector<double> y) {
 }
 
 // [[Rcpp::export]]
-double sum_prod_xy(std::vector<double> &x, std::vector<double> &y) {
+double sum_prod2(std::vector<double> &x, std::vector<double> &y) {
   lexicographic_sort(x, y);
   return sum_product_xy(x, y);
 }
-
-// [[Rcpp::export]]
-double sum_prod_x(std::vector<double> &x) {
-  sort(x.begin(), x.end());
-  return sum_product(x);
-}
-
-// [[Rcpp::export]]
-unsigned long long inversions(std::vector<double> &x, std::vector<double> &y)  {
-  lexicographic_sort(x, y);
-  return count_inversions(y);
-}
-
