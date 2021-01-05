@@ -142,3 +142,20 @@ unsigned long long inversions(std::vector<double> &x, std::vector<double> &y)  {
   return count_inversions(y);
 }
 
+//
+// //' @rdname tau
+// //' @export
+// // [[Rcpp::export]]
+// double conditional(std::vector<double> x, std::vector<double> y) {
+//
+//   lexicographic_sort(x, y); // lexicographically sorts x and y in-place.
+//   double f_xy = sum_product_xy(x, y); // assumes x,y are lexicographically sorted.
+//   unsigned long long inversions = count_inversions(y); // counts inversions and sorts y in place.
+//   double f_x = sum_product(x); // assumes x is sorted.
+//   double f_y = sum_product(y); // assumes y is sorted.
+//   double m = x.size() * (x.size() - 1);
+//
+//   double top = (m - f_x - f_y + (2 * f_xy - f_y * f_x / m)) - 4 * inversions;
+//   double bottom = m - f_y + f_x - f_y * f_x / m;
+//
+// }

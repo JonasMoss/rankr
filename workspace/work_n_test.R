@@ -1,6 +1,6 @@
 ## Comparison.
 set.seed(313)
-n = 10
+n = 30
 x = sort(sample(1:300, n, replace = TRUE))
 x0 = 33
 x1 = 66
