@@ -7,27 +7,30 @@
 tau_ci(
   x,
   y,
-  n_boot = 1000,
-  alternative = c("two_sided", "greater", "less"),
+  variant = c("tau", "tau_strict", "tau_a", "tau_b", "tau_c", "somers_d", "gk_gamma",
+    "wilsons_e"),
   alpha = 0.05,
+  alternative = c("two_sided", "greater", "less"),
   method = "BCa",
-  variant = c("tau_d", "tau_a", "tau_b", "tau_c", "somers_d", "gk_gamma")
+  n_boot = 1000
 )
 }
 \arguments{
 \item{x, y}{numeric vectors of data values. x and y must have the same length.}
 
-\item{n_boot}{number of bootstrap samples}
+\item{variant}{Which variant to return.}
+
+\item{alpha}{confidence level for the returned confidence interval.}
 
 \item{alternative}{indicates the alternative hypothesis and must be one of
 "two_sided", "greater" or "less". You can specify just the initial letter.
 "greater" corresponds to positive association, "less" to negative
 association.}
 
-\item{alpha}{confidence level for the returned confidence interval.}
-
 \item{method}{Method to used to calculate the confidence interval. Currently
-only "BCa", the accelerated bootstrap, is supported.}
+only "BCa", the accelerated bootstrap, is supportLed.}
+
+\item{n_boot}{Number of bootstrap samples}
 }
 \value{
 An interval containing the confidence limits.
