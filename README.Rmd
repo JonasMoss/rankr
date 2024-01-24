@@ -13,19 +13,20 @@ knitr::opts_chunk$set(
 )
 ```
 
-# rankr
+# rankr <img src="man/figures/logo.jpg" align="right" width="100" height="100" />
 
 <!-- badges: start -->
   [![Codecov test coverage](https://codecov.io/gh/JonasMoss/rankr/branch/main/graph/badge.svg)](https://app.codecov.io/gh/JonasMoss/rankr?branch=main)
 [![CRAN status](https://www.r-pkg.org/badges/version/rankr)](https://CRAN.R-project.org/package=rankr)
 <!-- badges: end -->
-An `R` package for calculating varieties of Kendall's tau. 
 
-**Work in progress!** Analytical confidence intervals hopefully coming soon, along with a preprint. Expect breaking changes to the API.
+An `R` package for calculating varieties of Kendall's tau in O(nlog(n)) time. Bias-corrected accelerated bootstrap[^10] supported. Designed to facilitate the computation of the new tau varieties in Moss (2024, WIP), but supports most variants of tau in the literature.
+
+**Work in progress!** Analytical confidence intervals hopefully coming soon, along with a preprint describing the new variants of tau and their rationale. Expect breaking changes to the API.
 
 ## Installation
 
-You can install the development version of rankr from [GitHub](https://github.com/) with:
+You can install the development version of `rankr` from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("remotes")
@@ -47,7 +48,7 @@ The `rankr` package supports caclulation of several variants of Kendall's tau. M
 library("rankr")
 c(tau(mtcars$mpg, mtcars$cyl), tau(mtcars$cyl, mtcars$mpg))
 ```
-Both numbers are negative, implying the best-fitting monotone function is decreasing. The first number is almost $-1$, implying that `cyl` is almost perfectly a weakly decreasing function of `mpg`. The second number is merely `-0.34`, implying there is only a weak monotone functional relationship $`mpg` = f(`cyl`)$. 
+Both numbers are negative, implying the best-fitting monotone function is decreasing. The first number is almost -1, implying that `cyl` is almost perfectly a weakly decreasing function of `mpg`. The second number is merely `-0.34`, implying there is only a weak monotone functional relationship `mpg = f(cyl)`. 
 
 Calculate approximate confidence intervals using the bias-corrected and accelerated bootstrap (BCa):
 
@@ -92,3 +93,5 @@ knitr::kable(results)
 [^6]: Goodman, L. A., & Kruskal, W. H. (1979). Measures of Association for Cross Classifications. In L. A. Goodman & W. H. Kruskal (Eds.), Measures of Association for Cross Classifications (pp. 2–34). Springer New York. https://doi.org/10.1007/978-1-4612-9995-0_1
 
 [^3]: Kendall, M. G. (1945). The treatment of ties in ranking problems. Biometrika, 33, 239–251. https://doi.org/10.1093/biomet/33.3.239
+
+[^10]: Efron, B. (1987). Better Bootstrap Confidence Intervals. Journal of the American Statistical Association, 82(397), 171–185. https://doi.org/10.2307/2289144
