@@ -4,3 +4,4 @@
 ^workspace$
 ^codecov\.yml$
 ^README\.Rmd$
+^\.github$

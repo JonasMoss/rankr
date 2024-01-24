@@ -18,6 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
   [![Codecov test coverage](https://codecov.io/gh/JonasMoss/rankr/branch/main/graph/badge.svg)](https://app.codecov.io/gh/JonasMoss/rankr?branch=main)
 [![CRAN status](https://www.r-pkg.org/badges/version/rankr)](https://CRAN.R-project.org/package=rankr)
+[![R-CMD-check](https://github.com/JonasMoss/rankr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/JonasMoss/rankr/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 An `R` package for calculating varieties of Kendall's tau in O(nlog(n)) time. Bias-corrected accelerated bootstrap[^10] supported. Designed to facilitate the computation of the new tau varieties in Moss (2024, WIP), but supports most variants of tau in the literature.

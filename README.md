@@ -9,6 +9,7 @@
 coverage](https://codecov.io/gh/JonasMoss/rankr/branch/main/graph/badge.svg)](https://app.codecov.io/gh/JonasMoss/rankr?branch=main)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/rankr)](https://CRAN.R-project.org/package=rankr)
+[![R-CMD-check](https://github.com/JonasMoss/rankr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/JonasMoss/rankr/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 An `R` package for calculating varieties of Kendall’s tau in O(nlog(n))
